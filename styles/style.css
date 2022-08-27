@@ -1,0 +1,103 @@
+body {
+  background-color: #fcf9f4;
+}
+
+.img-header {
+  margin-bottom: 100px;
+}
+.section {
+  margin-top: 300px;
+  font-size: 225px;
+  color: #ee712b;
+  position: absolute;
+  top: 650px;
+  left: 0;
+  line-height: 150px;
+  text-align: center;
+}
+.teams {
+  margin-bottom: 80px;
+}
+.card {
+  margin-top: 180px;
+  background: rgba(255, 255, 255, 0.24);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8.8px);
+  -webkit-backdrop-filter: blur(8.8px);
+  border: 0.8зч solid rgba(255, 255, 255, 0.23);
+}
+
+.haikyuu-info {
+  font-size: 20px;
+  margin-bottom: 180px;
+  margin-top: 70px;
+}
+
+.haikyuu-anime-wrap {
+  background-color: #ffd6a4;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.manga-panel {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px;
+  background: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+.manga-panels {
+  column-count: 3;
+  margin-top: 200px;
+}
+
+.contact-section {
+  font-size: 40px;
+  background-color: aqua;
+  padding: 12px;
+}
+
+#contact-link {
+  box-shadow: none;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  margin-bottom: 120px;
+  color: #ee712b;
+  font-size: 28px;
+}
+
+@media (max-width: 760px) {
+  .section {
+    display: none;
+  }
+  .characters-info {
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 45px;
+    padding-bottom: 18px;
+    font-size: 24px;
+  }
+  .haikyuu-anime-poster {
+    max-width: 70%;
+    margin-left: 15%;
+  }
+  .manga-panels {
+    column-count: 2;
+  }
+
+  .show-less-imgs {
+    display: none;
+  }
+
+  .contact-section {
+    font-size: 28px;
+  }
+
+  #contact-link {
+    font-size: 22px;
+  }
+}
